@@ -1,22 +1,22 @@
-# 📨 TCP Tabanlı Mesajlaşma ve Dosya Gönderim Uygulaması
+#  TCP Tabanlı Mesajlaşma ve Dosya Gönderim Uygulaması
 
 
-### 🎓 Proje Bilgileri
+###  Proje Bilgileri
 
 Ders: BMB501 / BMB507 – Bilgisayar Ağlarına Giriş
 Konu: İstemci–Sunucu (Client–Server) Mimarisi ile TCP Tabanlı Güvenli İletişim
 Geliştirilen Teknolojiler: Python (Socket, Threading, Tkinter)
 
-### 🚀 Proje Özellikleri
+###  Proje Özellikleri
 ***Temel Gereksinimler***
 
 Mesajlaşma: İki kullanıcı arasında anlık ve sürekli iletişim.
 Dosya Gönderimi: Sunucu üzerinden büyük dosyaların parçalı şekilde aktarımı (streaming).
 Veri Çerçeveleme (Framing): TCP akışında karışmayı engellemek için 4 byte'lık uzunluk ön ekli protokol.
-Eşzamanlılık: Sunucu, threading.RLock ile çoklu bağlantıları güvenli şekilde yönetir.
+Eşzamanlılık: Sunucu, threading. RLock ile çoklu bağlantıları güvenli şekilde yönetir.
 
 ---
-### ✨ Ekstra Uygulanan Özellikler
+###  Ekstra Uygulanan Özellikler
 
 1. Gelişmiş Görünüm:
 Mesajlarda zaman damgası ve kullanıcıya özel renkli etiketler.
@@ -32,7 +32,7 @@ Dosya gönderimi sırasında yüzde (%) bazlı progress bar görünür.
 Dosya boyutları byte yerine Megabayt (MB) cinsinden gösterilir.
 
 ---
-### 🏗️ Teknik Mimari
+###  Teknik Mimari
 ***Dosya Yapısı***
 
 **server.py:** Merkezi sunucu uygulaması
@@ -48,7 +48,7 @@ Dosya boyutları byte yerine Megabayt (MB) cinsinden gösterilir.
 **Veri (Değişken Boyutlu):** JSON formatında mesaj ve opsiyonel binary dosya parçası
 
 ---
-### ⚙️ Nasıl Kullanılır?
+###  Nasıl Kullanılır?
 #### A) Gerekli Ön Hazırlık
 
 *Tüm dosyaların aynı klasörde olduğuna emin ol*
@@ -75,7 +75,7 @@ Sunucu:
 - python client.py
 
 ---
-### 💬 Temel İşlevler
+###  Temel İşlevler
 Sohbet Başlatma
 
 Listeden kullanıcı seç → Seçili Kişiyle Sohbet Et butonu
